@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="body-sidebar">
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+
+            </header>
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class="bx bx-home"></i>
+                    <span>Главная</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-user"></i>
+                    <span>Регистрация</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class="bx bx-user-check"></i>
+                    <span>Вход</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-user-check"></i>
+                    <span>Контакты</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-user-check"></i>
+                    <span>Вход</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-user-check"></i>
+                    <span>Вход</span>
+                </button>
+            </nav>
+        </div>
+    </nav>
+<script type="text/javascript">
+    const toggleSidebar = () => document.body.classList.toggle("open");
+</script>
+</body>
+</html>
